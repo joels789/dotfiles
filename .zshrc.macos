@@ -138,7 +138,7 @@ export N8N_SECURE_COOKIE=false
 
 # Gemini
 
-export GEMINI_API_KEY=AIzaSyB9TXko3vL2aVKY47xnJOiCgva2rTIC2Zo
+export GEMINI_API_KEY=
 
 
 # mise-en-place
