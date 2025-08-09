@@ -31,7 +31,7 @@ require('lazy').setup({
   require(themes[env_var_nvim_theme]),
   require 'plugins.telescope', -- fuzzy search
   require 'plugins.treesitter', -- syntax highlighting
-  require 'plugins.lsp', -- goto definition
+  --  require 'plugins.lsp', -- goto definition
   require 'plugins.autocompletion', -- code completion
   require 'plugins.none-ls', -- autoformatter
   require 'plugins.lualine', -- status line at bottom
