@@ -11,12 +11,19 @@ config.initial_cols = 120
 config.initial_rows = 28
 
 -- or, changing the font size and color scheme.
--- config.font = wezterm.font("JetBrains Mono", { weight = "Bold", italic = true })
+-- config.font = wezterm.font("JetBrains Mono", { weight = "Bold" })
 -- config.font = wezterm.font("Cascadia Code", { weight = "Regular", stretch = "Normal", italic = false }) -- /home/wez/.fonts/CascadiaCode.ttf index=0 variation=4, FontDirs
 -- config.font = wezterm.font("Space Mono for Powerline", { weight = "Regular", stretch = "Normal", style = "Normal" }) -- /Users/gsk/Library/Fonts/Space Mono for Powerline.ttf, CoreText
 -- config.font = wezterm.font("Hack Nerd Font Propo", { weight = "Regular", stretch = "Normal", style = "Normal" }) -- /Users/gsk/Library/Fonts/Source Code Pro for Powerline.otf, CoreText
-config.font = wezterm.font("Hack Nerd Font Mono", { weight = "Bold", stretch = "Normal", style = "Normal" }) -- /Users/gsk/Library/Fonts/Source Code Pro for Powerline.otf, CoreText
--- wezterm.font("Source Code Pro for Powerline", { weight = "Regular", stretch = "Normal", style = "Normal" }) -- /Users/gsk/Library/Fonts/Source Code Pro for Powerline.otf, CoreText
+-- config.font = wezterm.font("Hack Nerd Font Mono", { weight = "Bold", stretch = "Normal", style = "Normal" }) -- /Users/gsk/Library/Fonts/Source Code Pro for Powerline.otf, CoreText
+config.font = wezterm.font("Meslo LG S for Powerline", { weight = "Bold", stretch = "Normal", style = "Normal" }) -- /Users/gsk/Library/Fonts/Source Code Pro for Powerline.otf, CoreText
+-- config.font = wezterm.font("Noto Mono for Powerline", { weight = "Bold", stretch = "Normal", style = "Normal" }) -- /Users/gsk/Library/Fonts/Source Code Pro for Powerline.otf, CoreText
+-- config.font = wezterm.font("Fira Mono for Powerline", { weight = "Bold", stretch = "Normal", style = "Normal" }) -- /Users/gsk/Library/Fonts/Source Code Pro for Powerline.otf, CoreText
+-- config.font =
+--	wezterm.font("Droid Sans Mono Dotted for Powerline", { weight = "Bold", stretch = "Normal", style = "Normal" }) -- /Users/gsk/Library/Fonts/Source Code Pro for Powerline.otf, CoreText
+-- wezterm.font("Source Code Pro for Powerline", { weight = "Bold", stretch = "Normal", style = "Normal" }) -- /Users/gsk/Library/Fonts/Source Code Pro for Powerline.otf, CoreText
+
+-- config.font = wezterm.font("MesloLGS")
 
 config.font_size = 14
 -- config.color_scheme = "s3r0 modified (terminal.sexy)"

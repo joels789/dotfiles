@@ -17,13 +17,14 @@ end
 vim.opt.rtp:prepend(lazypath)
 
 -- Import color theme based on environment variable NVIM_THEME
-local default_color_scheme = 'kanagawa'
+local default_color_scheme = 'nightwriter'
 local env_var_nvim_theme = os.getenv 'NVIM_THEME' or default_color_scheme
 
 -- Define a table of theme modules
 local themes = {
   githubtheme = 'plugins.themes.githubtheme',
   kanagawa = 'plugins.themes.kanagawa',
+  nightwriter = 'plugins.themes.nightwriter',
 }
 
 -- Setup plugins
@@ -49,6 +50,7 @@ require('lazy').setup({
   -- require 'plugins.avante',  -- AI assistant ala Cursor
   require 'plugins.aerial', -- code outline, folding
   require 'plugins.vim-tmux-navigator', -- navigate tmux and neovim panes and splits
+  require 'plugins.toodle', -- plugin tutorial
 }, {
   ui = {
     -- If you have a Nerd Font, set icons to an empty table which will use the

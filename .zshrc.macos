@@ -122,6 +122,7 @@ export PATH="/Applications/Visual Studio Code.app/Contents/Resources/app/bin:$PA
 export LESS="$LESS -FRXK"
 export DOTNET_CLI_TELEMETRY_OPTOUT=1 
 export PATH="/usr/local/sbin:$PATH"
+export PATH="$PATH:/Applications/WezTerm.app/Contents/MacOS"
 
 # pyenv
 # export PYENV_ROOT="$HOME/.pyenv"
