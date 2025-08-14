@@ -81,5 +81,13 @@ config.colors = {
 	selection_bg = "#2e2e2e",
 }
 
+config.keys = {
+  {
+    key = 'Z',
+    mods = 'CTRL',
+    action = wezterm.action.TogglePaneZoomState,
+  },
+}
+
 -- Finally, return the configuration to wezterm:
 return config
