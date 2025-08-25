@@ -51,6 +51,7 @@ require('lazy').setup({
   -- require 'plugins.avante',  -- AI assistant ala Cursor
   require 'plugins.aerial', -- code outline, folding
   require 'plugins.vim-tmux-navigator', -- navigate tmux and neovim panes and splits
+  require 'plugins.fold', -- code folding
   -- require 'plugins.toodle', -- plugin tutorial
 }, {
   ui = {
