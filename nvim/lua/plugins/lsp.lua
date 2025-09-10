@@ -164,14 +164,14 @@ return {
         settings = {
           pylsp = {
             plugins = {
-              pyflakes = { enabled = false },
-              pycodestyle = { enabled = false },
-              autopep8 = { enabled = false },
-              yapf = { enabled = false },
-              mccabe = { enabled = false },
-              pylsp_mypy = { enabled = false },
-              pylsp_black = { enabled = false },
-              pylsp_isort = { enabled = false },
+              pyflakes = { enabled = false }, -- linter
+              pycodestyle = { enabled = false }, -- PEP8 checker
+              autopep8 = { enabled = false }, -- PEP8 autoformatter
+              yapf = { enabled = false }, -- autoformatter
+              mccabe = { enabled = false }, -- code complexity checker
+              pylsp_mypy = { enabled = false }, -- static type checking
+              pylsp_black = { enabled = false }, -- autoformatter
+              pylsp_isort = { enabled = false }, -- auto import sorting
             },
           },
         },
